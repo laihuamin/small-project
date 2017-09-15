@@ -1,29 +1,35 @@
 module.exports = {
-  'extends': 'standard',
-  'plugins': [
-    'standard',
-    'promise'
+  "env": {
+      "browser": true,
+      "commonjs": true
+  },
+  "extends": "standard",
+  "parserOptions": {
+      "sourceType": "module"
+  },
+  "rules": {
+      "indent": [
+          "error",
+          4
+      ],
+      "linebreak-style": [
+          "error",
+          "unix"
+      ],
+      "quotes": [
+          "error",
+          "single"
+      ]
+  },
+  "plugins": [
+      "standard",
+      "promise"
   ],
-  'rules': {
-    'semi': ['error', 'always'],
-    'indent': ['error', 4],
-    'quotes': ['error', 'single'],
-    'camelcase': ['warn', {'properties': 'never'}],
-    'one-var': ['off'],
-    'no-new': ['off']
-  },
   'globals': {
-    // 全局免申明
-    '$': true,
-    '_': true,
-    'window': true,
-    'alert': true,
-    'document': true,
-    'location': true,
-    'localStorage': true,
-    'pageData': true,
-    'bbhybrid': true,
-    'Image': true,
-    'wx': true
-  },
-}
+      'wx': true,
+      'App': true,
+      'Page': true,
+      'getApp': true,
+      'window': true
+  }
+};

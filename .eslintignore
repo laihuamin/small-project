@@ -1,5 +1,5 @@
-# 不加入eslint目录
-
 node_modules
 
 wepy.config.js
+
+dist

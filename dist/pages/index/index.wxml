@@ -1,7 +1,7 @@
 
   <view class="tab">
-    <navigator class="tab-item">孕产期</navigator>
-    <navigator class="tab-item">0～1岁</navigator>
-    <navigator class="tab-item">1～3岁</navigator>
-    <navigator class="tab-item">3～6岁</navigator>
+    <navigator class="tab-item" url="/pages/index/index" hover-class="navigator-hover">孕产期</navigator>
+    <navigator class="tab-item" url="/pages/index/index" hover-class="navigator-hover">0～1岁</navigator>
+    <navigator class="tab-item" url="/pages/index/index" hover-class="navigator-hover">1～3岁</navigator>
+    <navigator class="tab-item" url="/pages/index/index" hover-class="navigator-hover">3～6岁</navigator>
   </view>
